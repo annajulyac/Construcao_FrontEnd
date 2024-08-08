@@ -3,3 +3,5 @@
 ## ANNA JÚLYA COSTA DOS SANTOS
 
 ## 2024 / 2*
+
+### Iniciando com GIT
