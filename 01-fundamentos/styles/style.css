@@ -1,0 +1,70 @@
+*{
+    margin: 0 auto;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+h2 {
+    font-size: 22px;
+    color:blue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+.meu-titulo {
+    color:brown
+}
+
+#ultimo-titulo {
+    color: cornflowerblue;
+}
+
+.fundo-azul {
+    background-color: aquamarine;
+}
+
+.texto-pequeno, #meu-paragrafo{
+    font-size: 8px;
+}
+
+#minha-div{
+    background-image:url("../assets/Via-Lactea.jpg");
+    padding: 20px;
+}
+
+#altura-largura {
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+}
+
+#div-espacamento {
+    background-color: aquamarine;
+    padding: 10px 20px 10px 20px;
+}
+
+#div-margem {
+    background-color: rgb(251, 127, 255);
+    margin: 10px 20px 10px 20px;
+}
+
+#div-borda {
+    background-color: rgb(221, 219, 221);
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+#div-arredondamento {
+    background-color: rgb(175, 224, 153);
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border: 3px solid rgb(165, 18, 18);
+    border-radius: 20px;
+}

@@ -1,12 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML e CSS</title>
+
+<!--CSS NO HEAD
+    <style>
+body {
+    padding-bottom: 500px;
+}
+    </style>-->
+
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Página Inicial</a></li>
+            <li><a href="./tabela.html">Tabela</a></li>
+            <li><a href="./formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+
+<!--COMENTÁRIOS EM HTML-->
+<!--Título-->
+<h1>título mais importante</h1>
+<h2>sub-titulo</h2>
+<h3>sub-titulo</h3>
+<h4>sub-titulo</h4>
+
+<!--LINKS-->
+
+<a href="https://github.com/">GitHub</a>
+
+<!--QUEBRA DE LINHA-->
+<hr>
+
+<!--IMAGEMA-->
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fbr%2Ficone-gratis%2Fhtml-5_174854&psig=AOvVaw3SdA2B8CVJdhdfN4QcMDMB&ust=1723680819300000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiiqsmZ84cDFQAAAAAdAAAAABAK" alt="">
+
+<img src="./assets/174854.png" alt="Linguagem de marcação">
+<hr>
+<form>
+    <h2>FORMULÁRIO</h2>
+
+    <label for="">Nome</label>
+    <input type="text">
+
+    <label>CPF</label>
+    <input type="text">
+
+    <label>E-mail</label>
+    <input type="email">
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
+<hr>
+
+<!--LISTAS-->
+<!--NÃO ORDENADA-->
+<ul>
+    <li>A</li>
+    <li>N</li>
+    <li>N</li>
+    <li>A</li>
+</ul>
+
+<!--ORDENADA-->
+<ol>
+    <li>Trabalho</li>
+    <li>Faculdade</li>
+    <li>Dormir</li>
+</ol>
+
+<!--TABELA-->
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>ID</th>
+            <th>E-mail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Maria</td>
+            <td>1</td>
+            <td>mariavaicomasoutras@gmail.com</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- comentário: crtl + ; -->
+
+<!--DIV E SPAN -->
+<div>
+    <h3>Produto X</h3>
+    <p>R$ 500,00</p>
+    <a href="#">Comprar</a>
+</div>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, <span style="color: blueviolet; background-color: bisque;">remaining</span> essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<!--CSS Inline-->
+
+<h3 style="font-size: 25px; color: darkmagenta;">Título</h3>
+
+<hr>
+
+<!--ELEMENTOS BLACK: como a tag é renderizada na pagina-->
+<p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+
+<p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+
+<!--INLINE-->
+<span>Algum texto</span>
+<span>Outro texto</span>
+
+<hr>
+
+<!--TAGS HTML5-->
+<nav></nav>
+<header></header>
+<aside></aside>
+<section></section>
+<footer></footer>
+
+<h3 class="meu-titulo">Meu titulo</h3>
+<h3 class="meu-titulo">Outro titulo</h3>
+<h3 id="ultimo-titulo">Meu ultimo titulo</h3>
+
+<!--BACKGROUND-->
+
+<p class="fundo-azul">Algum texto qualquer</p>
+
+<!--2 elementos, 1 regra-->
+
+<p class="texto-pequeno">Algum texto</p>
+<p id="meu-paragrafo">outro texto</p>
+
+<!--BACKGROUND IMAGE-> -->
+<div id="minha-div"><h3>Testando imagem</h3></div>
+
+<hr>
+
+<!--BOX MODEL-->
+
+<!--ALTURA E LARGURA-->
+<div id="altura-largura"><p>testandooooo</p></div>
+
+<!--padding-->
+<div id="div-espacamento"><p>testandooooo</p></div>
+
+<!-- margem -->
+<div id="div-margem"><p>testandooooo</p></div>
+
+<!-- borda -->
+<div id="div-borda"><p>testandooooo</p></div>
+
+<!-- arredondamento borda -->
+<div id="div-arredondamento"><p>arredondamento testandooooo</p></div>
+
+
+
+
+
+
 </body>
 </html>
+
